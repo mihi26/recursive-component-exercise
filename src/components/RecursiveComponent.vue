@@ -182,7 +182,7 @@ export default {
     &::before {
       content: "";
       // height: 33px;
-      height: 100%;
+      height: calc(100% + 15px);
       border: 1px solid #dcdcdc;
       left: -10px;
       position: absolute;
