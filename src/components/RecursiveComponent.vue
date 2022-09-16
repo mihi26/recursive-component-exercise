@@ -169,25 +169,34 @@ export default {
     gap: 14px;
 
     &::before {
-      content: "";
-      position: absolute;
-      border-right: 2px solid #dcdcdc;
-      width: 10px;
-      top: -15px;
-      bottom: 17px;
-      left: -19px;
+      // content: "";
+      // position: absolute;
+      // border: 1px solid #dcdcdc;
+      // height: 100%;
+      // top: -15px;
+      // left: -10px;
     }
   }
   &__container {
     position: relative;
-
     &::before {
       content: "";
-      position: absolute;
-      width: 10px;
-      border-top: 2px solid #dcdcdc;
+      // height: 33px;
+      height: 100%;
+      border: 1px solid #dcdcdc;
       left: -10px;
-      top: 15px;
+      position: absolute;
+      top: -15px;
+    }
+
+    &:last-child::before {
+      content: "";
+      height: 34px;
+      // height: 100%;
+      border: 1px solid #dcdcdc;
+      left: -10px;
+      position: absolute;
+      top: -15px;
     }
   }
 
@@ -232,6 +241,14 @@ export default {
   }
 
   &__wrapper {
+    &::before {
+      content: "";
+      position: absolute;
+      width: 10px;
+      border: 1px solid #dcdcdc;
+      left: -10px;
+      top: 17px;
+    }
     display: flex;
     flex-direction: row;
     align-items: center;

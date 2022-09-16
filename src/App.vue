@@ -83,13 +83,13 @@ export default {
   position: relative;
 
   &::before {
-    content: "";
-    position: absolute;
-    border-right: 2px solid #dcdcdc;
-    width: 10px;
-    top: 18px;
-    bottom: 47px;
-    left: 24px;
+    // content: "";
+    // position: absolute;
+    // border-right: 2px solid #dcdcdc;
+    // width: 10px;
+    // top: 18px;
+    // bottom: 47px;
+    // left: 24px;
   }
 }
 </style>
